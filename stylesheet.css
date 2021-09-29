@@ -1,3 +1,14 @@
 body {
     background-color: aqua;
 }
+
+
+.center {
+    text-align: center;
+}
+
+table, td, th {
+    border: solid 1px black;
+    background-color: brown;
+    color:darkblue;
+}
