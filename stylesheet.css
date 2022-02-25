@@ -3,6 +3,9 @@ body {
 }
 
 
+html {
+    background-color: aqua;
+}
 .center {
     text-align: center;
 }
