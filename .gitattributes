@@ -1,2 +1,2 @@
 MMD0.mp4 filter=lfs diff=lfs merge=lfs -text
-MMD1.mp4 filter=lfs diff=lfs merge=lfs -text
+MMD1.mp4 filter=lfs diff=lfs merge=lfs -video
