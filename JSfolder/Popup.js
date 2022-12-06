@@ -1,3 +1,3 @@
 $(#R18).on('click', function(){
-    console.log('test')
+    alert('騙されたな!!')
 })
