@@ -1,5 +1,3 @@
-$(function(){
-    $('#R18').on('click', function(){
-        console.log('test')
-    });
-});
+$(#R18).on('click', function(){
+    console.log('test')
+})
