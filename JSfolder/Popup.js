@@ -14,6 +14,7 @@ $('#R18').on('click', function(){
             }, 10*15);
         } else {
             alert('不正解…');
+            return false;
         }
 
     }
