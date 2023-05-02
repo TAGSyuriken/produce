@@ -11,7 +11,7 @@ $('#R18').on('click', function(){
             alert('正解！');
             setTimeout(location.href = './HTMLfolder/R18.html', 5*15);
         } else {
-            alert('不正解…');
+            return false;
         }        
 
     }
