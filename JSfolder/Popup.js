@@ -9,9 +9,7 @@ $('#R18').on('click', function(){
 
         if(User == QUESTION_ANSWER[num]){
             alert('正解！');
-            setTimeout(function(){
-                location.href = './HTMLfolder/R18.html';
-            }, 5*15);
+            setTimeout(location.href = './HTMLfolder/R18.html', 5*15);
         } else {
             alert('不正解…');
         }        
