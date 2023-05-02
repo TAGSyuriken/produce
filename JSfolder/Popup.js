@@ -13,7 +13,7 @@ $('#R18').on('click', function(){
         } else {
             alert('正解！');
             setTimeout(function(){
-                location.href = './HTMLfolder/R18.html'
+                location.href = 'R18.html'
             }, 10*15);
         }
 
