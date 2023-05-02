@@ -13,7 +13,7 @@ $('#R18').on('click', function(){
                 location.href = './HTMLfolder/R18.html';
             }, 5*15);
         } else {
-            console.log('不正解');
+            alert('不正解…')
         }        
 
     }
