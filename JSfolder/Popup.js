@@ -7,14 +7,14 @@ $('#R18').on('click', function(){
         var num = Math.floor(Math.random() * QUESTION_SENTENCE.length);
         var User = window.prompt(`${QUESTION_SENTENCE[num]}の答えは？`);
 
-        if(User == QUESTION_ANSWER[num]){
+        if(!User == QUESTION_ANSWER[num]){
+            alert('不正解…');
+            return false;
+        } else {
             alert('正解！');
             setTimeout(function(){
                 location.href = './HTMLfolder/R18.html'
             }, 10*15);
-        } else {
-            alert('不正解…');
-            return false;
         }
 
     }
